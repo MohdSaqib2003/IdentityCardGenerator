@@ -1,0 +1,445 @@
+        
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body{
+        background-image: url('icard.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* text-align: left; */
+    }
+    .header{
+        background-color: rgb(46, 81, 136);
+        text-align: center;
+        color: white;
+        font-family: myfont;
+        padding: 10px;
+        margin-bottom: 20px;
+        
+   }
+    .bor{
+        margin-bottom: 80px;
+        height: 472px;
+        width: 282px;
+        border: 1px solid #cdd1cf;
+        border-radius: 25px;
+        background-color: white;
+        /* //box-shadow:2px 2px 1px black,-2px -2px 1px black; */
+        text-align: left;
+    }
+
+    .inside{
+        height: 435px;
+        width: 250px;
+        border: 1px solid #edf2f0;
+        margin: 15px;
+        border-radius: 20px;;
+    }
+
+    .top{
+        height: 90px;
+        background-color: #3bc450;
+        border-radius:20px 20px 0px 0px ;
+    }
+
+    .proct{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:550;
+        padding: 10px 0px 5px 0px;
+        font-size: 16px;
+        transform: scaleY(1.2);
+    }
+
+    .jmi{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:550;
+        padding: 5px;
+        font-size:18px;
+        transform: scaleY(1.4);
+    }
+
+    .cen{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+        font-size: 13px;
+    }
+
+    .middle1{
+        height:150px;
+        background-color:#FBF964;
+        
+    }
+
+  .sign{
+        float: left;
+        margin-right: 5px;
+    }
+
+    .id{
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: 600;
+       transform: scaleY(1.6);
+       letter-spacing: 9px;
+       padding: 5px;
+       display: inline-block;
+    }
+
+
+    .photo{
+       transform: translateY(-14px);
+       float: left;
+       padding-right: 5px;
+    } 
+
+         
+    .name{
+        padding: 5px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        transform:scaleY(2.5);
+        transform: translateY(-25px);
+        text-indent: 5px;
+        font-style: oblique;
+        font-size: 18px;
+    }
+
+    .dip{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 14px;
+        transform: translateY(-8px);
+        
+    }
+
+    .middle2{
+        height: 50px;
+        background-color:#3bc450;
+    }
+
+    .uni{
+        padding-top: 5px;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+        margin: auto ;
+    }
+
+    .fac{
+        text-align: center;
+        padding-top: 5px;
+        font-size: 10px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        transform: scaleY(1.3);
+ 
+    }
+    .bottom{
+        background-color:#f7f7f7;
+        height: 145px;
+        border-radius:0px 0px 20px 20px;
+    }
+    .slogo{
+        border-radius: 32px;
+        margin:10px 0px 0px 5px;
+        float: left;
+    }
+    .idate{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        transform: translateY(5px);
+        margin-right: 5px;
+        float:right;
+        font-size: 14px;
+    }
+    .logo{
+        transform: translate(-60px,45px);
+        background-color: #f7f7f7;
+        color: #f7f7f7;
+    }
+
+    .proc{
+        transform: translate(80px,-52px);
+    }
+    .chief{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        transform: translate(130px,-60px);
+    }
+
+
+
+           /* backside */
+
+           .bor2{
+        /* margin:20px 0px 50px 10px; */
+      height: 472px;
+      width: 282px;
+      border: 1px solid #f2f2f0;
+      border-radius: 25px;
+      background-color:#fcfcfa;
+     
+  }
+
+  .inside2{
+      height: 435px;
+      width: 250px;
+      margin: 15px;
+      border-radius: 20px;
+      padding-top: 6px;
+  }
+
+  .top2{
+    
+      height: 90px;
+      background-color:white;
+      border-radius:20px 20px 0px 0px ;
+  }
+  .bar{
+      text-align: center;
+      transform: translateY(15px);
+  }
+  #id2{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+      letter-spacing: 2.8px;
+      transform: scaleY(1.1);
+      font-weight: bold;
+  }
+  
+
+  .middle12{
+      height:40px;
+      background-color:#FBF964;
+      
+  }
+
+  .always{
+      padding-top: 3px;
+      line-height: 14px;
+      font-size: 10px;
+      text-align: center;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      transform: scale(1.1);
+  } 
+
+  .middle22{
+      height:220px;
+      background-color: #3bc450;
+      text-align: left
+  }
+
+  
+  .blood{
+       height: 38px;
+       background-color: rgb(248, 6, 6);
+       float: right;
+       color:white;
+       width: 45%;
+       text-align:center;
+       border-radius: 18px 0px 0px 18px;             
+       font-size: 12px;
+       padding-top:1px;
+       box-shadow: 0px 0.6px 2px black;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+  #group{
+      font-size: 17px;
+  
+  }
+  
+  .info{
+      font-weight: bold;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 10px 0px 0px 8px;
+  }
+  .indian{
+      color:yellow;
+      font-style: italic;
+      padding-left: 14px;
+      font-weight:505;
+      padding-bottom: 6px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+   
+   .data{
+       padding-left: 5px;
+       font-style: italic;
+       font-size: 13px;
+       line-height: 20px;
+       font-weight: bold;
+       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  .middle23{
+      height: 45px;
+      background-color: royalblue;
+  }
+ 
+  .lost{
+      text-align: center;
+      color:white;
+      font-size: 12px;
+      padding-top: 3px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .bottom2{
+      background-color:#FBF964;
+      height: 36px;
+      border-radius:0px 0px 20px 20px;
+  }
+  .emergency{
+      text-align:center;
+      font-weight:700;
+      font-size: 12px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }       
+  .bor2,.bor{
+      display: inline-block;
+      
+  }
+  .bor2{
+      position: relative;
+      top: -50px;
+  }
+
+
+  
+  @media screen and (max-width: 500px){
+    
+      .header{
+          font-size: 13px;      
+      }
+
+  }
+   *{
+        margin: 0px;
+        padding: 0px;
+   }
+       
+   .footer{
+       background-color: rgb(71, 71, 71);
+       color: white;
+       margin-top: 30px;
+       text-align: center;
+       height: 100px;
+       padding-top: 30px;
+   }
+
+
+
+       @font-face{
+           font-family: myFont;
+           src:url(font.ttf);
+           
+        }
+
+   #input{
+       background-color: black;
+       color:white;
+       opacity: 0.6;
+       width: 415px;
+       padding: 20px;
+       text-align: left;
+       font-family: myFont;
+       border-radius: 2px;
+   }
+   div input[placeholder]{
+        height: 20px;
+        width: 390px;
+        border:none;
+        border-bottom:1px solid white;
+        background-color: black;
+        outline: none;
+        margin: 5px;
+        padding-left:5px ;
+        color:white;
+        font-size: 15px;
+        font-family: myfont;
+    }
+    h3{
+        font-family: myfont;
+        text-align: center;
+        font-size: 25px;
+        margin: -5px;
+    }
+    div input[accept]{
+        padding-left:10px;
+    }
+    span{
+        padding-left:10px;
+    }
+    
+    
+    #gen{
+        font-family: myfont;
+        background-color:rgb(21, 223, 98);
+        outline: none;
+        border: none;
+        margin: 10px;
+        height: 30px;
+        width: 150px;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 1s ease-in-out;
+        
+    }
+    input[type="file"],input[type="date"],#b_group{
+        background-color: rgb(18, 64, 214);
+        color: white;
+        padding: 5px;
+        border-radius:3px;
+    } 
+    #gen:hover{
+         border: 1px solid rgb(21, 223, 98);
+         background-color:black;
+         color: white;
+
+    }
+
+  @media screen and (max-width: 500px){
+      #input{
+          width: 300px;
+      }
+      div input[placeholder]{
+          width: 275px;
+      }
+      .header{
+          font-size: 13px;
+          
+      }
+
+  }
+   *{
+        margin: 0px;
+        padding: 0px;
+   }
+   .header{
+        background-color: rgb(20, 165, 76);
+        text-align: center;
+        font-family: myfont;
+        padding: 10px;
+        margin-bottom: 20px;
+   }    
+   .footer{
+       background-color: rgb(71, 71, 71);
+       color: white;
+       margin-top: 30px;
+       text-align: center;
+       height: 100px;
+       padding-top: 30px;
+   }
+   .error{
+       color: red;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 13px;
+   }
